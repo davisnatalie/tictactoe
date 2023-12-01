@@ -7,8 +7,8 @@ main {
     margin: 0 auto;
     background-color: #ccc;
     color: #555;
-    width: auto;
-    min-height: auto;
+    width: 550px;
+    min-height: 600px;
     font-family: sans-serif;
     border-radius: 20px;
     border: 1px solid #555;
@@ -78,4 +78,21 @@ h2 {
     font-size: 1.25rem;
     float: right;
     color: forestgreen;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main {
+    margin: auto;
+    background-color: #ccc;
+    color: #555;
+    width: auto;
+    min-height: auto;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border: 1px solid #555;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
 }
