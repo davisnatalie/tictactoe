@@ -7,8 +7,8 @@ main {
     margin: 0 auto;
     background-color: #ccc;
     color: #555;
-    width: 550px;
-    min-height: 600px;
+    width: auto;
+    min-height: auto;
     font-family: sans-serif;
     border-radius: 20px;
     border: 1px solid #555;
