@@ -95,4 +95,17 @@ h2 {
     flex-direction: column;
     overflow: hidden;
 }
+    .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    aspect-ratio: 1/1;
+    border: 1px solid #555;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 }
